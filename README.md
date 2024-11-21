@@ -1,4 +1,4 @@
-<h1>JWipe - cardsgame</h1>
+<h1>cardsgame</h1>
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
