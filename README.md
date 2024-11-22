@@ -70,6 +70,7 @@ The Flask development server will start, and you’ll see a message like this:
 - The player with the highest score wins. Ties are handled gracefully.
 
 ## Project Structure
+<img width="488" alt="projectstructure" src="https://github.com/user-attachments/assets/a0015702-61fb-4dba-b8c9-a24f8b8cba02">
 
 
 ## Future Enhancements
