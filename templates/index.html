@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Card Game</h1>
+
+        <!-- Suit Selection -->
+        <div>
+            <label for="suit-choice">Choose a suit set:</label>
+            <select id="suit-choice">
+                <option value="1">Classic Suits (♥, ♦, ♣, ♠)</option>
+                <option value="2">Emoji Suits (😃, 😈, 😵, 🤢, 😨)</option>
+                <option value="3">Fantasy Suits (🤡, 👹, 👺, 👻, 👽, 👾, 🤖)</option>
+            </select>
+            <button id="start-game-btn">Start Game</button>
+        </div>
+
+        <!-- Game Buttons -->
+        <div class="button-group">
+            <button id="shuffle-btn" disabled>Shuffle Deck</button>
+            <button id="pick-card-btn" disabled>Pick Cards</button>
+            <button id="show-cards-btn" disabled>Show My Cards</button>
+            <button id="check-winner-btn" disabled>Check Winner</button>
+        </div>
+
+        <!-- Messages -->
+        <div id="messages"></div>
+        <div id="player-hand"></div>
+    </div>
+
+    <script src="/static/cards.js"></script>
+</body>
+</html>
