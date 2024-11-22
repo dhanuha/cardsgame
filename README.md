@@ -57,11 +57,15 @@ The Flask development server will start, and you’ll see a message like this:
 
 ## How to Play
 1. Select a suit set from the dropdown menu and click **Start Game**.
+   <img width="680" alt="gamestarted" src="https://github.com/user-attachments/assets/ebb83058-1f39-4d37-b980-d603b8264b43">
 2. Use the buttons to:
 - **Shuffle Deck**: Randomize the deck.
 - **Pick Cards**: Draw cards for both the player and the robot.
+- <img width="705" alt="pickcards" src="https://github.com/user-attachments/assets/806f0dd0-5079-4e13-89e9-1f3809e1afba">
 - **Show My Cards**: Display the player's hand.
+- <img width="702" alt="showmycards" src="https://github.com/user-attachments/assets/05c286e3-17ea-4258-ac40-579de9559a76">
 - **Check Winner**: Calculate the scores and determine the winner.
+- <img width="715" alt="showwinner" src="https://github.com/user-attachments/assets/8efbc43c-9852-405d-a8ee-83ea94e50404">
 3. Repeat or restart the game as desired.
 
 ## Game Logic
